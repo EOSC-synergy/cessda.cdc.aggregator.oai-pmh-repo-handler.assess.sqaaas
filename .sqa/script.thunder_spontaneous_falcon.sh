@@ -5,5 +5,5 @@
 
 (
 cd github.com/cessda/cessda.cdc.aggregator.oai-pmh-repo-handler &&
-    cffconvert --validate
+    git rev-parse --is-inside-work-tree 
 )
